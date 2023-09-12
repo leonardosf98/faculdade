@@ -1,0 +1,105 @@
+
+:root{
+    --text-color: #23ADDB;
+    --bg-color: #1A48E8;
+    --large: 25px;
+    --mid: 16px;
+}
+html{
+    width: 100vw;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 25px;
+    color: var(--text-color);
+}
+h2{
+    font-size: 22px;
+    color: var(--text-color);
+}
+
+.navigation-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-links li{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+}
+
+.presentation{
+    display: grid;
+    grid-template-areas: "image paragraph-1"
+    "image paragraph-2"
+    "image paragraph-3";
+    column-gap: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+
+}
+
+.presentation-content-1{
+    grid-area: paragraph-1;
+}
+.presentation-content-2{
+    grid-area: paragraph-2;
+}
+.presentation-content-3{
+    grid-area: paragraph-3;
+}
+.presentation-image{
+    grid-area: image;
+}
+table{
+    font-size: 18px;
+    font-family: 'Century Gothic', Courier, monospace;
+}
+th{
+    text-align: left;
+    border-color: rgb(238, 0, 40);
+    border-style: dashed;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+td{
+    border-color: rgb(238, 0, 40);
+    border-style: dashed;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+thead{ 
+    background-color: rgb(24, 119, 0);
+}
+
+tr:hover{
+    background-color: blue;
+}
+table:hover{
+    background-color: red;
+}
