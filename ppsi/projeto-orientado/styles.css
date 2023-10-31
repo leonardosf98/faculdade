@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --cor-de-fundo: #5fcdd9;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  background-color: var(--cor-de-fundo);
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 999px;
+}
+@keyframes deixarCinza {
+  from {
+    width: 100%;
+  }
+  to {
+    filter: grayscale(0.5);
+    width: 120%;
+  }
+}
+img:hover {
+  animation-name: deixarCinza;
+}
+
+.students-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  text-align: center;
+}

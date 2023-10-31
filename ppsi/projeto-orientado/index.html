@@ -1,29 +1,45 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Projeto Orientado | Sistemas para Internet</title>
-</head>
-<body>
-<header>
-    <h1>Projeto Orientado</h1>
-    <nav>
-        <p>Home |
-        <a href="drielly.html">Drielly Fazolino</a> |
-        <a href="leonardo.html">Leonardo Souza</a> |
-        <a href="curiosidades.html">Tabela de curiosidades</a> |
-        <a href="favoritos.html">Sites Favoritos</a></p>
-       
-    </nav>
-</header>
-<main>
-<h2>Alunos do projeto</h2>
-<p>Clique na imagem para saber mais dsobre o estudante desejado:</p>
-<h3>Drielly Fazolino</h3>
-<a href="drielly.html"><img src="assets/drielly.png" alt="menina branca de cabelo curto preto, com brincos de cruz nas duas orelhas, camisa preta numa parede com fundo branco" ></a>
-<h3>Leonardo Souza</h3>
-<a href="leonardo.html"><img src="assets/leonardo.jpg" alt="homem pardo, de camisa social azul de cabelo curto e sorrindo, com um computador na parte de baixo da imagem e ao fundo decoração de plantas" width="400" height="375"></a>
-</main>
-</body>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Projeto Orientado</h1>
+      <nav>
+        <p>
+          Home | <a href="drielly.html">Drielly Fazolino</a> |
+          <a href="leonardo.html">Leonardo Souza</a> |
+          <a href="curiosidades.html">Tabela de curiosidades</a> |
+          <a href="favoritos.html">Sites Favoritos</a>
+        </p>
+      </nav>
+    </header>
+    <main>
+      <h2>Alunos do projeto</h2>
+      <p>Clique na imagem para saber mais sobre o estudante desejado:</p>
+      <div class="students-container">
+        <div class="aluno1">
+          <h3>Drielly Fazolino</h3>
+          <a href="drielly.html"
+            ><img
+              src="assets/drielly.png"
+              alt="menina branca de cabelo curto preto, com brincos de cruz nas duas orelhas, camisa preta numa parede com fundo branco"
+          /></a>
+        </div>
+        <div class="aluno2">
+          <h3>Leonardo Souza</h3>
+          <a href="leonardo.html"
+            ><img
+              src="assets/leonardo.jpg"
+              alt="homem pardo, de camisa social azul de cabelo curto e sorrindo, com um computador na parte de baixo da imagem e ao fundo decoração de plantas"
+              width="400"
+              height="375"
+          /></a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
